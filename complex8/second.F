@@ -23,10 +23,8 @@
 
 #ifdef _AIX
       REAL               ETIME_
-      EXTERNAL           ETIME_
 #else
       REAL               ETIME
-      EXTERNAL           ETIME
 #endif 
 
 *     ..

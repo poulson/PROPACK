@@ -66,8 +66,6 @@ c     %-----------%
 c     %------------%
 c     | Parameters |
 c     %------------%
-      real one, zero
-      parameter(one = 1.0, zero = 0.0)
 
 c     %-----------------%
 c     | Local variables |

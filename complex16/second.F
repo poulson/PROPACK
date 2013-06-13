@@ -22,11 +22,9 @@
 *     .. External Functions ..
 
 #ifdef _AIX
-      REAL               ETIME_
-      EXTERNAL           ETIME_
+      REAL      ETIME_
 #else
-      REAL               ETIME
-      EXTERNAL           ETIME
+      REAL      ETIME
 #endif 
 
 *     ..

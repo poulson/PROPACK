@@ -13,8 +13,8 @@ c     %------------%
       integer lwrk,liwrk
       parameter(lwrk=mmax+nmax+13*kmax+8*kmax**2+32*mmax+8)
       parameter(liwrk = 8*kmax)
-      double precision dzero, done
-      parameter(dzero = 0.0, done = 1.0)
+      double precision dzero
+      parameter(dzero = 0.0)
 
       character*1 jobu, jobv
       character*256 matfilename, sigmafilename,ufilename,vfilename

@@ -13,11 +13,11 @@ c
       double precision U1(mmax),V1(nmax)
       double precision Sigma1(kmax),bnd1(kmax)
       double precision U2(mmax),V2(nmax)
-      double precision udiff(mmax), vdiff(nmax),dotprod
+      double precision dotprod
       double precision Sigma2(kmax),bnd2(kmax)
-      double precision norm2,norm1,normd,eps,tol,delta
+      double precision norm2,norm1,eps,tol,delta
       double precision abserr,relerr,maxabserr,maxrelerr
-      integer relidx, absidx, info
+      integer relidx, absidx
 c     Save large arrays in a common block to avoid stack overflow on
 c     certain machines.
       common/cexample/U1,V1,Sigma1,bnd1,U2,V2,Sigma2,bnd2

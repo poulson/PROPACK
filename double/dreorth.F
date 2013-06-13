@@ -60,8 +60,8 @@ c     %------------%
 c     | Parameters |
 c     %------------%
       integer NTRY
-      double precision one, zero
-      parameter(one = 1.0, zero = 0.0, NTRY=5)
+      double precision zero
+      parameter(zero = 0.0, NTRY=5)
       
 c     %-----------------%
 c     | Local variables |

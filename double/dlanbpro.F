@@ -668,8 +668,8 @@ c     %-----------%
 c     %------------%
 c     | Parameters |
 c     %------------%
-      double precision one, zero, FUDGE
-      parameter(one = 1.0, zero = 0.0, FUDGE = 1.01)
+      double precision one
+      parameter(one = 1.0)
 
 c     %-----------------%
 c     | Local variables |
@@ -728,8 +728,8 @@ c     %-----------%
 c     %------------%
 c     | Parameters |
 c     %------------%
-      double precision one, zero, FUDGE
-      parameter(one = 1.0, zero = 0.0, FUDGE = 1.01)
+      double precision one, zero
+      parameter(one = 1.0, zero = 0.0)
 
 c     %-----------------%
 c     | Local variables |

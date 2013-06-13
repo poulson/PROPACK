@@ -14,8 +14,8 @@ c     %------------%
       parameter(lwrk=mmax+nmax+14*kmax+8*kmax**2+32*mmax+9)
       parameter(liwrk = 8*kmax)
       parameter(maxiter=1000)
-      double precision dzero, done
-      parameter(dzero = 0.0, done = 1.0)
+      double precision dzero
+      parameter(dzero = 0.0)
 
 c     %-----------------%
 c     | Local variables |
